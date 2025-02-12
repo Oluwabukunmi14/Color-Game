@@ -7,7 +7,7 @@ const targetColorBox = document.getElementById('target-color');
 const colorOptionsContainer = document.getElementById('color-options');
 
 function generateRandomColor() {
-    const r = Math.floor(Math.random() * 256);
+    const r = Math.floor(Math.random() * 256)
     const g = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);
     return `rgb(${r}, ${g}, ${b})`;
